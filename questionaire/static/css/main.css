@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+#chatbox {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 95%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    height: 75%;
+    overflow-y: scroll;  /* Enable vertical scrolling */
+    scrollbar-width: none;  /* For Firefox */
+    -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+}
+
+#chatbox::-webkit-scrollbar {
+    display: none;  /* For Chrome, Safari, and Opera */
+}
+
+.botText {
+    font-family: monospace;
+    font-size: 14px;
+    text-align: left;
+    line-height: 25px;
+    color: white;
+}
+
+#userInput {
+    position:fixed;
+    top: 88%;
+    left: 15%;
+    width: 70%;
+    text-align: center;
+}
+
+#textInput {
+    border: 3px solid white;
+    border-bottom: 3px solid #afafaf;
+    font-family: monospace;
+    font-size: 14px;
+    width: 60%;
+    padding: 16px;
+    color: rgb(213, 67, 41);  /* Corrected rgb */
+    border-radius: 10px;
+}
+
+#buttonInput {
+    padding: 5px;
+    font-family: monospace;
+    font-size: 14px;
+    border: 3px solid #5b605c;
+    background-color: rgb(40, 40, 40);  /* Corrected rgb */
+    color: white;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+.userText{
+   text-align:left;
+   font-family:monospace;
+   font-size:14px;
+   line-height:25px;
+   color:white;
+   border-radius: 5px;
+   background-color:#3b3b3b;
+   width:fit-content ;
+   margin-left:auto;
+   padding:5px;
+}
+
+p{
+    width:60%;
+}
